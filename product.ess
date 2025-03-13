@@ -1,0 +1,12 @@
+start
+new money number
+set money 1800
+new cost number
+set cost 1799
+if (cost > money)
+  log string "не может купить товар"
+close
+if (money > cost)
+  log string "может купить товар"
+close
+finish
