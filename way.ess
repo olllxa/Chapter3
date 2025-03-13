@@ -1,1 +1,17 @@
-
+start
+new AB number
+set AB 5
+new BC number
+set BC 25
+new CD number
+set CD 5
+new AD number
+set AD 30
+new way number
+set way AB + BC + CD
+if (way > AD)
+  log string "пешком быстрее дойти"
+else 
+  log string "на автобусе быстрее"
+close
+finish
